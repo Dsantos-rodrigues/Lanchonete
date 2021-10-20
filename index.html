@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="formulario">
+      <form>
+        <fieldset>
+          <legend>Lanchonete do IFMA</legend>
+          <label for="nomeCliente">Nome do Cliente: </label>
+          <input type="text" id="nomeCliente">
+          <hr><label for="radiogroup">Bebidas</label><br>
+          <input type="radio" name="radiogroup">Suco</button>
+          <input type="radio" name="radiogroup">Refrigerante</button>
+          <input type="radio" name="radiogroup">Água</button>
+          <hr><label for="comidas">Doces e Salgados</label><br>
+          <input type="checkbox" id="bolo" value="Bolo">
+          <label for="bolo">Bolo</label>
+          <input type="checkbox" id="pastel" value="Pastel">
+          <label for="pastel">Pastel</label>
+          <input type="checkbox" id="torta" value="Torta">
+          <label for="torta">Torta</label>
+          <div id="buttons">
+            <button type="button" id="calcular">Calcular</button>
+            <button type="reset">Limpar</button>
+        </div>
+        </fieldset>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
